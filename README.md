@@ -4,8 +4,8 @@ En la que podemos ver la distancia de edición entre dos palabras según lo expu
 La clase Principal:
 Public class principal {: Esto define una clase llamada principal. En Java, por convención, los nombres de las clases comienzan con mayúscula.
 Public static void main(String[] args) {: Este es el método principal (main) que se ejecuta cuando ejecutas el programa. Toma un argumento de matriz de cadenas args, que es una convención en Java para pasar argumentos desde la línea de comandos. Es estático (static), lo que significa que pertenece a la clase en lugar de a una instancia específica de la clase.
-String s1 = "casa";: Declara una variable s1 de tipo String y le asigna el valor "casa". Esto crea una cadena de texto con el contenido "casa".
-String s2 = "calle";: Declara una variable s2 de tipo String y le asigna el valor "calle". Esto crea otra cadena de texto con el contenido "calle".
+String s1 = "paloma";: Declara una variable s1 de tipo String y le asigna el valor "rafa". Esto crea una cadena de texto con el contenido "casa".
+String s2 = "rafa";: Declara una variable s2 de tipo String y le asigna el valor "paloma". Esto crea otra cadena de texto con el contenido "calle".
 System.out.println("La distancia de edición entre \"" + s1 + "\" y \"" + s2 + "\" es: " + CalculadorDistancias.CalcularDistancias(s1, s2));: Imprime en la consola un mensaje que incluye las cadenas s1 y s2, y la distancia de edición entre ellas. Utiliza el método CalcularDistancias de la clase CalculadorDistancias para calcular esta distancia.
 La clase Calculadoradedistancias:
 Public class CalculadoraDistancias {: Define una clase llamada CalculadoraDistancias.
